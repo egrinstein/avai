@@ -32,10 +32,19 @@ class ImageLabeler:
             MaxLabels=self.max_labels,
             MinConfidence=self.min_confidence,
         )
-        return response['Labels']
+        return parse_response(response)
 
 
-if __name__ == "__main__":
-    image_labeler = ImageLabeler()
-    for label in image_labeler.detect(KEY):
-        print("{Name} - {Confidence}%".format(**label))
+def parse_response(response):
+    return [
+        {
+            "label": d["Name"],
+            "confidence": int(d["Confidence"])
+        }
+        for d in response["Labels"]
+    ]
+
+
+def detect_image_labels(file_name_in_bucket):
+    labeler = ImageLabeler()
+    return labeler.detect(file_name_in_bucket)

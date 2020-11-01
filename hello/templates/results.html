@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block content %}
+
+<div class="d-flex flex-row bd-highlight mb-3 text-center jumbotron"><!-- jumbotron text-center"> -->
+  <div class="container p-2 bd-highlight">
+    <h1>Resultados</h1>
+  </div>
+  <div class="container p-2 bd-highlight">
+    <h2>Imagem enviada:</h2>
+    <img src="{{detection_results.image_url}}" alt="Imagem inserida">
+  </div>
+  <div class="container p-2 bd-highlight">
+    <h2>Nela, identificamos os seguintes elementos:</h2>
+    <table style="width: 100%;" class="table table-dark">
+      <tr>
+        <td><h3>Categoria</h3></td>
+        <td><h3>Confiança</h3></td>
+      </tr>
+      {% for dr in detection_results.labels %}
+        <tr>
+          <td>{{dr.label}}</td>
+          <td>{{dr.confidence}}%</td>
+        </tr>
+      {% endfor %}
+    </table>
+  </div>
+  <div class="container p-2 bd-highlight">
+    <h2>Baseado nesses elementos, sugerimos a seguinte playlist:</h2>
+    <iframe src="https://open.spotify.com/embed/playlist/{{detection_results.playlist_id}}"
+      width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media">
+    </iframe>
+  </div>
+  <div class="container p-2 bd-highlight">
+    <form action="/", style="width: 100%;">
+      <input type="submit" value="Teste outra imagem" class="btn-primary" />
+    </form>
+  </div>
+</div>
+{% endblock %}
