@@ -8,16 +8,11 @@
     <h1>AVAI - Audio Visual AI</h1>
     <p>AVAI te permite descobrir músicas que combinam com seu ambiente</p>
   </div>
-  <!-- <div class="container p-2 bd-highlight">
-    <iframe src="https://open.spotify.com/embed/track/5cF0dROlMOK5uNZtivgu50"
-      width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media">
-    </iframe>
-  </div> -->
   <div class="container p-2 bd-highlight">
-    <h2>Teste o sistema de recomendação:</h2>
+    <h2>Sistema de recomendação de playlists Filtr</h2>
     <form action="/detect/" method="post" enctype="multipart/form-data">
       {% csrf_token %}
-      {{ form }}
+      {{ form.as_table }}
       <input type="submit" value="Enviar" class="btn-primary">
   </form>
   </div>

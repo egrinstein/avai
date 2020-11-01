@@ -8,6 +8,12 @@
     <h1>Resultados</h1>
   </div>
   <div class="container p-2 bd-highlight">
+    <h2>Essa é a playlist Filtr que recomendamos para você:</h2>
+    <iframe src="https://open.spotify.com/embed/playlist/{{detection_results.playlist_id}}"
+      width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media">
+    </iframe>
+  </div>
+  <div class="container p-2 bd-highlight">
     <h2>Imagem enviada:</h2>
     <img src="{{detection_results.image_url}}" alt="Imagem inserida">
   </div>
@@ -25,12 +31,6 @@
         </tr>
       {% endfor %}
     </table>
-  </div>
-  <div class="container p-2 bd-highlight">
-    <h2>Baseado nesses elementos, sugerimos a seguinte playlist:</h2>
-    <iframe src="https://open.spotify.com/embed/playlist/{{detection_results.playlist_id}}"
-      width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media">
-    </iframe>
   </div>
   <div class="container p-2 bd-highlight">
     <form action="/", style="width: 100%;">

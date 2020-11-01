@@ -3,4 +3,4 @@ from .models import Photo
 
 # Create the form class.
 class ImageForm(forms.Form):  
-    photo = forms.ImageField()
+    photo = forms.ImageField(label="")

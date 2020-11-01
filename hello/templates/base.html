@@ -17,7 +17,12 @@
     }
     input {
         background: #845ac7;
-        border-color: #845ac7
+        border-color: #845ac7;
+        margin-bottom: 20px;
+    }
+    img {
+        max-width: 70%;
+        max-height: auto;
     }
     .jumbotron .btn-primary:hover {
         background: #7646c1
@@ -34,7 +39,15 @@
         margin: 0 auto;
         width:80%
     }
-
+    form {
+        display: inline-block;
+    }
+    footer {
+        display: inline-block;
+        background: #d41575;
+        color: white;
+        width: 100%;
+    }
 
   </style>
 </head>
@@ -43,4 +56,11 @@
 {% block content %}{% endblock %}
 
 </body>
+<footer>
+    <div style="text-align: center;">
+        <p>Autores: @moniqueferreira @egrinstein</p>
+        <p>Hackathon code/stage Sony Music</p>
+    </div>
+  </footer>
+
 </html>
