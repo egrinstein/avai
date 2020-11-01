@@ -4,3 +4,4 @@ django-heroku
 django-storages
 pandas
 boto3
+Pillow
