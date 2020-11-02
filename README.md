@@ -16,4 +16,4 @@ Disponibilizamos algumas imagens (com licensa creative commons) de teste na past
 
 
 
-Baseado em https://github.com/heroku/python-getting-started 
+#### Obs: Forked from https://github.com/heroku/python-getting-started 
