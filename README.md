@@ -4,7 +4,7 @@ Esse repositório contém o código do projeto AVAI, desenvolvido durante a hack
 realizada pela Sony Music. 
 
 Nossa aplicação é um sistema de recomendação de playlists a partir de imagens.
-A partir de uma analise de imagem usando deep learning, podemos inferir o contexto em que o usuário está, e recomendar a ele uma playlist que seja condizente com o mesmo.
+A partir de uma análise de imagem usando deep learning, podemos inferir o contexto em que o usuário está, e recomendar a ele uma playlist que seja condizente com o mesmo.
 
 ## Membros
 @egrinstein
