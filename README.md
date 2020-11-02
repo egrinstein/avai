@@ -14,6 +14,7 @@ A partir de uma análise de imagem usando deep learning (Amazon Rekognition), po
 A aplicação pode ser acessada em http://audio-visual-ai.herokuapp.com/ .
 Disponibilizamos algumas imagens (com licensa creative commons) de teste na pasta `test_images` nesse repositório que podem ser usadas para teste da funcionalidade do projeto.
 
-
+## Código
+A pasta "hello" é um app django que contém a maior parte do código
 
 #### Obs: Forked from https://github.com/heroku/python-getting-started 
