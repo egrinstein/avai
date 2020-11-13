@@ -6,7 +6,7 @@ from django.db import migrations, models
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('hello', '0002_auto_20201101_0104'),
+        ('avai_app', '0002_auto_20201101_0104'),
     ]
 
     operations = [
