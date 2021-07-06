@@ -7,9 +7,11 @@
   <div class="container p-2 bd-highlight">
     <h1>AVAI - Audio Visual AI</h1>
     <p>AVAI te permite descobrir músicas que combinam com seu ambiente</p>
+    <p><i>AVAI allows you to discover playlists matching your environment</i></p>
   </div>
   <div class="container p-2 bd-highlight">
     <h2>Sistema de recomendação de playlists Filtr</h2>
+    <h2><i>Filtr playlist recommendation system</i></h2>
     <form action="/detect/" method="post" enctype="multipart/form-data">
       {% csrf_token %}
       {{ form.as_table }}

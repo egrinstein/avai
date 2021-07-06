@@ -5,25 +5,29 @@
 
 <div class="d-flex flex-row bd-highlight mb-3 text-center jumbotron"><!-- jumbotron text-center"> -->
   <div class="container p-2 bd-highlight">
-    <h1>Resultados</h1>
+    <h1>Results</h1>
   </div>
   <div class="container p-2 bd-highlight">
     <h2>Essa é a playlist Filtr que recomendamos para você:</h2>
+    <h2><i>This is the Filtr playlist we recommend you:</i></h2>
     <iframe src="https://open.spotify.com/embed/playlist/{{detection_results.playlist_id}}"
       width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media">
     </iframe>
-    <p>AVAI: A nossa inteligência amplifica a sua emoção</p>
+    <p>A nossa inteligência amplifica a sua emoção</p>
+    <p><i>AVAI: Our AI amplifies your emotion</i></p>
   </div>
   <div class="container p-2 bd-highlight">
     <h2>Imagem enviada:</h2>
+    <h2><i>Image sent:</i></h2>
     <img src="{{detection_results.image_url}}" alt="Imagem inserida">
   </div>
   <div class="container p-2 bd-highlight">
     <h2>Nela, identificamos os seguintes elementos:</h2>
+    <h2><i>We have identified the following elements:</i></h2>
     <table style="width: 100%;" class="table table-dark">
       <tr>
-        <td><h3>Categoria</h3></td>
-        <td><h3>Confiança</h3></td>
+        <td><h3>Category</h3></td>
+        <td><h3>Confidence</h3></td>
       </tr>
       {% for dr in detection_results.labels %}
         <tr>
