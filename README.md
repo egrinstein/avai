@@ -1,20 +1,20 @@
 # AVAI - Audio Visual AI
 
-Esse repositório contém o código do projeto AVAI, desenvolvido durante a hackaton code/stage
-realizada pela Sony Music. 
+This repository contains the AVAI project code, developed within the Code/Stage Hackathon hosted by Sony Music in November 2020.
 
-Nossa aplicação é um sistema de recomendação de playlists a partir de imagens.
-A partir de uma análise de imagem usando deep learning (Amazon Rekognition), podemos inferir o contexto em que o usuário está, e recomendar a ele uma playlist que seja condizente com o mesmo.
+Our application is a playlist recommendation system based on images.
+We infer the context of the users' ambiance through image analysis using Deep Learning (AWS' Amazon Rekognition service), and recommend them a correspondig playlist.
 
-## Membros
-@egrinstein
-@ferreiramonique
+## Members
+[@egrinstein](https://github.com/egrinstein)
+[@mgrinstein](https://github.com/mgrinstein)
 
-## Como testar
-A aplicação pode ser acessada em http://audio-visual-ai.herokuapp.com/ .
-Disponibilizamos algumas imagens (com licensa creative commons) de teste na pasta `test_images` nesse repositório que podem ser usadas para teste da funcionalidade do projeto.
+## Testing
+The application ~~can be accessed at http://audio-visual-ai.herokuapp.com/~~ needs to be redeployed.
 
-## Código
-A pasta "avai_app" é um app django que contém a maior parte do código
+We have provide some test images (creative commons) in the `test_images` folder in this repository, which can be used to test the functionality of the project.
 
-#### Obs: Forked from https://github.com/heroku/python-getting-started 
+## Code
+The "avai_app" folder is a django app which contains most of the code.
+
+#### PS: Forked from https://github.com/heroku/python-getting-started 
