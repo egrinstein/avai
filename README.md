@@ -16,13 +16,13 @@ We have provided some test images (creative commons) in the `test_images` folder
 
 ## Code
 The `avai_app` folder is a django app that contains most of the code.
+#### PS: Forked from https://github.com/heroku/python-getting-started 
 
 ## On the media
-Official winning announcements:
+This project has been awarded 1<sup>st</sup> place in the Code/Stage Hackathon. Official announcements:
 * [Code/Stage - YouTube Live Announcement](https://www.youtube.com/live/qDCgHsC4rfU?si=OQ1KdGTKk24RzJv-&t=3228)
 
 * [SonyMusic.com - Hackathon Article](https://www.sonymusic.com/sonymusic/sony-music-brazil-hackathon-challenge/)
 
 * [Code/Stage - Instagram Post](https://www.instagram.com/p/CHbdGU5p6Y7/)
 
-#### PS: Forked from https://github.com/heroku/python-getting-started 
