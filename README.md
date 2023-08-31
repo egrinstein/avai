@@ -20,7 +20,7 @@ The `avai_app` folder is a django app that contains most of the code.
 
 ## On the media
 This project has been awarded 1<sup>st</sup> place in the Code/Stage Hackathon. Official announcements:
-* [Code/Stage - YouTube Live Announcement](https://www.youtube.com/live/qDCgHsC4rfU?si=OQ1KdGTKk24RzJv-&t=3228)
+* [Code/Stage - YouTube Live Announcement](https://www.youtube.com/live/qDCgHsC4rfU?si=OQ1KdGTKk24RzJv-&t=3228) _(includes official demo presentation)_
 
 * [SonyMusic.com - Hackathon Article](https://www.sonymusic.com/sonymusic/sony-music-brazil-hackathon-challenge/)
 
