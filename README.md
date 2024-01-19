@@ -1,11 +1,11 @@
 # AVAI - Audio Visual AI
 
-This repository contains the AVAI project code, developed within the Code/Stage Hackathon hosted by Sony Music in November 2020.
-
-Our application is a playlist recommendation system based on images.
+Our AVAI application is a playlist recommendation system based on images.
 We infer the context of the users' ambiance through image analysis using Deep Learning (AWS' Amazon Rekognition service) and recommend a corresponding playlist.
 
-## Members
+This repository contains the AVAI project code, developed within the Code/Stage Hackathon hosted by Sony Music in November 2020.
+
+## Team Members
 [@egrinstein](https://github.com/egrinstein)
 [@mgrinstein](https://github.com/mgrinstein)
 
